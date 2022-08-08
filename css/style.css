@@ -12,6 +12,7 @@ body {
   background-color: #0d0d0d;
   color: #f5f5ff;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 a ,.fa-solid{
   color: red;
@@ -36,23 +37,18 @@ a ,.fa-solid{
   text-transform: uppercase;
   font-size: 0.9rem;
   font-weight: 400;
-
 }
 
 
 @media screen and (max-width:580px) {
   .navbar{
     margin-left: 2rem;
-
-
-  }
-  
+  } 
 }
 
 .container{
   max-width: 57rem;
   margin: 0 auto;
-
 }
 
 /*  _________________ */
@@ -95,7 +91,6 @@ a ,.fa-solid{
     margin-bottom: 2.5rem;
     margin-left: 1.5rem;
   }
-
 }
 
 /*  card css */
@@ -106,8 +101,7 @@ a ,.fa-solid{
   margin-top: 4rem;
   justify-content: center;
   gap: 1.1rem;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 
 .cards {
@@ -139,7 +133,6 @@ a ,.fa-solid{
   min-height: 6rem;
   display: grid;
   place-items: center;
-  /* flex-direction: column; */
 }
 
 .trusti .right .card h1 {
@@ -152,6 +145,7 @@ a ,.fa-solid{
   font-size: 17px;
   padding-top: 5px;
 }
+
 .trusti .left {
   flex: 1.2;
   text-align: center;
@@ -164,18 +158,35 @@ a ,.fa-solid{
 .back_shadow{
   background-color: #151718;
   position: absolute;
-  width: 53rem;
-  height: 690px;
-  left: -200px;
+  left: -11rem;
   top: 589px;
   z-index: -1;
-
+  width: 53.5rem;
+  height: 690px;
 }
 
-@media only screen and (max-width: 808px) {
+@media only screen and (max-width: 420px) {
   .trusti {
-    margin: 0 auto;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+  }
+  .trusti .right .card {
+    background-color: #242b2e;
+    max-width: 5rem;
+    min-width: 8.5rem;
+    min-height: 6rem;
+    display: grid;
+    place-items: center;
+  }
+  .trusti .right {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex: 1;
+    position: relative;
+    left: 1.9rem;
   }
 }
 
@@ -219,37 +230,6 @@ button{
   background-color: #242b2e; 
 }
 
-
-@media screen and (max-width: 767px) {
- .work{
-  display: flex;
-  flex-wrap: wrap;
- }
- 
- .footer_item{
-  font-size: small;
- }
- 
- .project{
-  display: flex;
-  flex-wrap: wrap;
-  line-height: 1.2;
- }
-
-.footer{
-  background-color: #242b2e;
-  padding: 1.9rem 2rem;
-  display: flex;
-  gap: 5rem;
-  justify-content: space-around;
-}
-.icons{
-  margin-top: 0.7rem;
-}
-
-}
-
-
 .span_item{
   text-align: center;
   margin-top: 2.9rem;
@@ -269,3 +249,29 @@ button{
   display: flex;
   gap: 1rem;
 }
+
+@media screen and (max-width: 767px) {
+  .work{
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .footer_item{
+   font-size: small;
+  }
+  .project{
+   display: flex;
+   flex-wrap: wrap;
+   line-height: 1.2;
+  }
+ 
+ .footer{
+   background-color: #242b2e;
+   padding: 1.9rem 2rem;
+   display: flex;
+   gap: 5rem;
+   justify-content: space-around;
+ }
+ .icons{
+   margin-top: 0.7rem;
+ }
+ }
