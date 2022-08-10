@@ -275,3 +275,11 @@ button{
    margin-top: 0.7rem;
  }
  }
+
+@media screen and (max-width:450px) {
+    body{
+      overflow-x: hidden;
+      margin: 0 auto;
+      
+    }
+  }
