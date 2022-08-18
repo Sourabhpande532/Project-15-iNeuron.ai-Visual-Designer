@@ -291,9 +291,7 @@ button{
  }
  }
 
-<<<<<<< HEAD
- /* ................................. */
-=======
+
 @media screen and (max-width:450px) {
     body{
       overflow-x: hidden;
@@ -301,4 +299,4 @@ button{
       
     }
   }
->>>>>>> origin/saurabh
+
