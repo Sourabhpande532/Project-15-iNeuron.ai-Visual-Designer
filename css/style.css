@@ -291,4 +291,14 @@ button{
  }
  }
 
+<<<<<<< HEAD
  /* ................................. */
+=======
+@media screen and (max-width:450px) {
+    body{
+      overflow-x: hidden;
+      margin: 0 auto;
+      
+    }
+  }
+>>>>>>> origin/saurabh
