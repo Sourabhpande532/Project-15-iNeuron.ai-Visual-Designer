@@ -1,3 +1,4 @@
+/** @format */
 
 * {
   margin: 0;
@@ -6,7 +7,7 @@
   text-decoration: none;
   list-style: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 body {
   margin: 0;
   background-color: #0d0d0d;
@@ -14,24 +15,25 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
-a ,.fa-solid{
+a,
+.fa-solid {
   color: red;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
   height: 15vh;
   align-items: center;
   overflow-x: auto;
 }
-.menu_bar{
+.menu_bar {
   display: inline;
 }
-.nav_item{
+.nav_item {
   margin: 1rem;
 }
-.navbar{
+.navbar {
   display: flex;
   gap: 1px;
   text-transform: uppercase;
@@ -39,14 +41,7 @@ a ,.fa-solid{
   font-weight: 400;
 }
 
-
-@media screen and (max-width:680px) {
-  .navbar{
-    margin-left: 2rem;
-  } 
-}
-
-.container{
+.container {
   max-width: 57rem;
   margin: 0 auto;
 }
@@ -79,51 +74,20 @@ a ,.fa-solid{
   color: inherit;
 }
 
-@media screen and (max-width:767px) {
-  html,body{
-    margin: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow-x: hidden;
-  }
-  
-  
-  .hero {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .hero_info {
-    position: relative;
-    top: 4rem;
-    line-height:1.2;
-    margin-bottom: 2.5rem;
-    margin-left: 1.5rem;
-  }
-  .ui_cards .cards {
-    background-color: #242b2e;
-    padding: 1rem 1.5rem;
-  }
-}
-
 /*  card css */
-
 
 .ui_cards {
   display: flex;
   margin-top: 4rem;
   justify-content: center;
   gap: 1.1rem;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .cards {
   background-color: #242b2e;
   padding: 2rem 2.2rem;
 }
-
 
 .trusti {
   display: flex;
@@ -170,7 +134,7 @@ a ,.fa-solid{
   font-size: 7rem;
   font-weight: 900;
 }
-.back_shadow{
+.back_shadow {
   background-color: #151718;
   position: absolute;
   left: -11rem;
@@ -179,56 +143,30 @@ a ,.fa-solid{
   width: 53.5rem;
   height: 690px;
 }
-
-@media only screen and (max-width: 420px) {
-  .trusti {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin: 0 auto;
-  }
-  .trusti .right .card {
-    background-color: #242b2e;
-    max-width: 5rem;
-    min-width: 8.5rem;
-    min-height: 6rem;
-    display: grid;
-    place-items: center;
-  }
-  .trusti .right {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    flex: 1;
-    position: relative;
-    left: 1.9rem;
-  }
-}
-
-.project_data{
+.project_data {
   margin-top: 3.9rem;
 }
 
-.project{
+.project {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 3.8rem;
   margin-bottom: 2rem;
 }
-button{
+button {
   background-color: red;
   padding: 0.6rem 2rem;
   color: #f5f5ff;
 }
-.project_img{
+.project_img {
   max-width: 22.5rem;
   max-height: 20rem;
   background-color: #242b2e;
-  padding: 2.9rem 2rem
+  padding: 2.9rem 2rem;
 }
 
-.project_list{
+.project_list {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -236,69 +174,33 @@ button{
   align-items: center;
 }
 
-.work{
+.work {
   margin-top: 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.9rem 4.5rem;
-  background-color: #242b2e; 
+  background-color: #242b2e;
 }
 
-.span_item{
+.span_item {
   text-align: center;
   margin-top: 2.9rem;
   margin-bottom: 2rem;
 }
-.footer_item{
- margin: 1rem;
+.footer_item {
+  margin: 1rem;
 }
-.footer{
+.footer {
   background-color: #242b2e;
   padding: 1.9rem 2rem;
   display: flex;
   gap: 6rem;
   justify-content: space-around;
 }
-.icons{
+.icons {
   display: flex;
   gap: 1rem;
 }
 
-@media screen and (max-width: 767px) {
-  .work{
-   display: flex;
-   flex-wrap: wrap;
-  }
-  .footer_item{
-   font-size: small;
-  }
-  .project{
-   display: flex;
-   flex-wrap: wrap;
-   line-height: 1.2;
-  }
- 
- .footer{
-   background-color: #242b2e;
-   padding: 1.9rem 2rem;
-   display: flex;
-   gap: 5rem;
-   justify-content: space-around;
- }
- .icons{
-   margin-top: 0.7rem;
- }
- }
 
-<<<<<<< HEAD
- /* ................................. */
-=======
-@media screen and (max-width:450px) {
-    body{
-      overflow-x: hidden;
-      margin: 0 auto;
-      
-    }
-  }
->>>>>>> origin/saurabh
