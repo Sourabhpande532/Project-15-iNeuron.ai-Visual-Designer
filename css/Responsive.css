@@ -58,7 +58,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .trusti {
     display: flex;
     flex-direction: column;
@@ -68,16 +68,19 @@
   .trusti .right .card {
     background-color: #242b2e;
     max-width: 5rem;
-    min-width: 8.5rem;
+    min-width: 12.5rem;
     min-height: 6rem;
     display: grid;
     place-items: center;
+    place-content: center;
   }
   .trusti .right {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    flex: 1;
+  }
+  .project_list {
+    text-align: center;
   }
 }
 
